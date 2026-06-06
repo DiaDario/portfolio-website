@@ -10,7 +10,7 @@ export const translations = {
     },
 
     hero: {
-      role: "Junior Web Developer",
+      role: "Junior Developer",
       greeting: "Ciao, sono",
       name: "Dario Diana",
       subtitle:
@@ -37,7 +37,7 @@ export const translations = {
         "Dopo il liceo scientifico ho frequentato inizialmente Informatica all'Università Federico II di Napoli e successivamente Data Analytics presso l'Università Luigi Vanvitelli, corso interamente in lingua inglese. Il percorso si è interrotto nei primi mesi a causa di alcune difficoltà personali e di salute, che in quel periodo hanno reso alquanto complessa la continuità nello studio.",
         "Una volta superato quel periodo, ho deciso di intraprendere un percorso nel mondo dello sviluppo tramite la piattaforma Start2Impact che mi aveva attirato sin da subito per il suo focus su progetti pratici.",
         "Prima di terminare il mio percorso con Start2impact, nel 2025, mentre ero alla ricerca di opportunità lavorative su LinkedIn, ho scoperto un corso professionale promosso da ITForm e istituito dalla Regione Campania nell'ambito dello sviluppo web. Interessato ad acquisire esperienza dal vivo e consolidare le mie competenze, ho inviato la candidatura e sono stato selezionato. Il corso si è svolto tra giugno e ottobre, con esame finale teorico e pratico a dicembre 2025.",
-        "Ho conseguito la qualifica EQF5 di \"Tecnico Programmatore Siti Web\", valida a livello europeo, attraverso un percorso di 300 ore che includeva anche 90 ore di tirocinio presso un'azienda tech nel Centro Direzionale di Napoli.",
+        'Ho conseguito la qualifica EQF5 di "Tecnico Programmatore Siti Web", valida a livello europeo, attraverso un percorso di 300 ore che includeva anche 90 ore di tirocinio presso un\'azienda tech nel Centro Direzionale di Napoli.',
         "Ho un'ottima padronanza della lingua inglese, che utilizzo quotidianamente in diversi contesti, sia nello studio che nella vita di tutti i giorni. Mi considero fluido anche nella comunicazione orale.",
       ],
       readMore: "Leggi di più",
@@ -92,7 +92,8 @@ export const translations = {
         {
           id: 1,
           title: "Portfolio React",
-          description: "Portfolio personale realizzato con React e Tailwind CSS.",
+          description:
+            "Portfolio personale realizzato con React e Tailwind CSS.",
           tags: ["React", "Tailwind CSS", "Vite"],
           github: "",
           live: "",
@@ -156,7 +157,7 @@ export const translations = {
     },
 
     hero: {
-      role: "Junior Web Developer",
+      role: "Junior Developer",
       greeting: "Hello, I am",
       name: "Dario Diana",
       subtitle:
@@ -179,12 +180,13 @@ export const translations = {
       subtitle: "A little about me, my journey and my CV.",
       bioLabel: "Bio",
       bioParagraphs: [
-        "I'm a 25-year-old developer with a deep passion for technology, born when I built my first desktop PC at the age of 15.",
-        "After high school, I initially attended Computer Science at the University of Naples Federico II and later Data Analytics at the University of Luigi Vanvitelli — a course taught entirely in English. The journey was interrupted in the early months due to some personal and health difficulties that made it quite hard to keep up with my studies at the time.",
-        "Once I got through that period, I decided to pursue a path in full stack development through the Start2Impact platform, which had immediately caught my attention for its focus on practical projects.",
-        "Before finishing my Start2Impact path, in 2025, while looking for job opportunities on LinkedIn, I came across a professional course promoted by ITForm and established by the Campania Region in the area of web development. Interested in gaining hands-on experience and consolidating my skills, I applied and was selected. The course ran from June to October, with a theoretical and practical final exam in December 2025.",
-        "I obtained the EQF5 qualification as \"Web Dev / Technician,\" valid across Europe, through a 300-hour program that also included 90 hours of internship at a tech company in the Centro Direzionale in Naples.",
-        "I feel very comfortable writing and speaking in English, which I use daily in various contexts — both in studying and in everyday life.",
+        "I'm a 25-year-old developer with a long-standing passion for technology. My interest started early — I built my first desktop PC at 14 and have been exploring the world of tech ever since.",
+
+        "After high school, I enrolled in Computer Science at Federico II University before switching to Data Analytics at Vanvitelli University, a degree program taught entirely in English. Although I had to leave university earlier than planned due to personal and health-related circumstances, that experience ultimately pushed me to focus more on coding.",
+
+        "I later completed part of the Full Stack Development path at Start2Impact, a learning platform I chose for its strong project-based approach. During the summer of 2025, while looking for job opportunities on LinkedIn, I applied for and was selected to join a development training program organized by ITForm and funded by the Campania Region.", 
+        
+        "The program included 300 hours of training and a 90-hour internship at a tech company in Napoli. After passing the final examination in December, I earned an EQF Level 5 qualification in Web Development/Technician, recognized across Europe.",
       ],
       readMore: "Read more",
       showLess: "Show less",
@@ -197,14 +199,14 @@ export const translations = {
           title: "EQF5 Certificate — Technician / Web Developer",
           institution: "ITForm",
           description:
-            "Professional training course focused on web development, with an emphasis on solid programming foundations and practical application of skills.",
+            "Professional training program focused on web development, with an emphasis on solid programming fundamentals and hands-on application of skills.",
         },
         {
           period: "2024-2025",
           title: "Full Stack Developer",
           institution: "Start2Impact",
           description:
-            "Training path focused on practical projects, through which I developed the fundamentals of web development — from HTML and CSS up to SASS and JavaScript.",
+            "Project-based training path through which I built a solid foundation in web development, from HTML and CSS to SASS and JavaScript.",
         },
         {
           period: "2013 — 2018",
@@ -218,22 +220,22 @@ export const translations = {
         {
           period: "2025",
           title: "Web Development Intern",
-          company: "ITConsulting — Centro Direzionale, Naples",
+          company: "ITConsulting — Centro Direzionale, Napoli",
           description:
-            "Curricular internship of 90 hours as part of the EQF5 program with ITForm. Worked on little projects with the development team with front-end tasks and web application maintenance.",
+            "Curricular internship as part of the EQF Level 5 program with ITForm. Worked on small projects within the development team, contributing to front-end tasks and web application maintenance.",
         },
         {
           period: "2024-2025",
           title: "Part-Time Cashier",
           company: "Local supermarket",
-          description: "Part-time cashier work from 8:00 AM to 1:30 PM.",
+          description: "Part-time cashier role (08:00–13:30).",
         },
       ],
     },
 
     projects: {
       title: "Projects",
-      subtitle: "Some things I've worked on.",
+      subtitle: "Some things I've built",
       items: [
         {
           id: 1,
@@ -263,9 +265,9 @@ export const translations = {
     },
 
     contact: {
-      title: "Contact",
+      title: "",
       subtitle:
-        "If you'd like to collaborate, you can reach me on social media or via the form.",
+        "",
       socialTitle: "Social",
       formTitle: "Write me",
       nameLabel: "Name",

@@ -26,38 +26,48 @@ function Navbar() {
   );
 }`,
 
-  "Skills.jsx": `function SkillBar({ name, level }) {
+  "Skills.jsx": `import { useState } from "react";
+import { SiReact, SiJavascript, SiTailwindcss } from "react-icons/si";
+
+function SkillItem({ name, icon: Icon, color }) {
+  const [hovered, setHovered] = useState(false);
+
   return (
-    <div className="mb-5">
-      <div className="flex justify-between text-sm mb-2">
-        <span className="font-medium">{name}</span>
-        <span className="text-ink/40">{level}%</span>
-      </div>
-      <div className="h-1.5 bg-ink/10 rounded-full overflow-hidden">
-        <div
-          className="h-full bg-accent rounded-full transition-all duration-700"
-          style={{ width: \`\${level}%\` }}
-        />
-      </div>
+    <div
+      className="flex items-center gap-3 py-2.5
+        border-b border-ink/5 last:border-0 cursor-pointer"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <Icon
+        size={15}
+        className="shrink-0 transition-colors duration-300"
+        style={{ color: hovered ? color : "rgba(240,236,232,0.3)" }}
+      />
+      <span
+        className={\`text-sm transition-all duration-300 \${
+          hovered
+            ? "text-ink/90 translate-x-0.5"
+            : "text-ink/60 translate-x-0"
+        }\`}
+      >
+        {name}
+      </span>
     </div>
   );
 }
 
-const skills = [
-  { name: "HTML",       level: 90 },
-  { name: "CSS",        level: 90 },
-  { name: "JavaScript", level: 60 },
-  { name: "Bootstrap",  level: 90 },
-  { name: "React",      level: 30 },
-];
-
-function Skills() {
+function SkillGroup({ title, skills }) {
   return (
-    <section id="skills">
+    <div>
+      <h3 className="text-accent text-xs font-semibold
+        uppercase tracking-widest mb-4">
+        {title}
+      </h3>
       {skills.map((skill) => (
-        <SkillBar key={skill.name} {...skill} />
+        <SkillItem key={skill.name} {...skill} />
       ))}
-    </section>
+    </div>
   );
 }`,
 
@@ -118,10 +128,10 @@ export const floatingCards = {
     textColor: "text-purple-200",
     contentColor: "text-purple-300",
     icon: "⚡",
-    title: { it: "SkillBar", en: "SkillBar" },
+    title: { it: "SkillItem", en: "SkillItem" },
     content: {
-      it: "Componente riutilizzabile con barra animata via CSS",
-      en: "Reusable component with CSS animated progress bar",
+      it: "Icone colorate al hover con micro-animazione React",
+      en: "Color-on-hover icons with React micro-animation",
     },
   },
   "Contacts.jsx": {

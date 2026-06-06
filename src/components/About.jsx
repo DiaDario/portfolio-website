@@ -8,10 +8,9 @@ function About() {
 
   return (
     <section id="about" className="px-6 md:px-10 py-16 md:py-20">
-      <h2 className="text-ink/80 text-[22px] font-bold mb-2 md:text-2xl">
-        {t.title}
-      </h2>
-      <p className="text-ink/40 mb-8 md:mb-12 text-sm">{t.subtitle}</p>
+      <p className="text-ink/80 text-xs font-semibold uppercase tracking-widest mb-10">
+        {t.subtitle}
+      </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
         {/* Bio*/}
