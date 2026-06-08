@@ -75,13 +75,13 @@ export const translations = {
           title: "Tirocinante Sviluppatore Web",
           company: "ITConsulting — Centro Direzionale, Napoli",
           description:
-            "Tirocinio curricolare svolto nell'ambito del percorso EQF5 con ITForm. Affiancamento al team di sviluppo su attività di front-end e manutenzione di applicazioni web.",
+            "Tirocinio curricolare svolto nell'ambito del percorso EQF-5 con ITForm. Affiancamento al team di sviluppo su attività di front-end e manutenzione di applicazioni web.",
         },
         {
           period: "2024-2025",
           title: "Cassiere Part-Time",
           company: "Supermercato locale",
-          description: "Cassiere part-time dalle ore 8:00 alle 13:00, 1 anno.",
+          description: "Cassiere part-time, ~18 mesi.",
         },
       ],
     },
@@ -169,7 +169,7 @@ export const translations = {
 
         "I later completed part of the Full Stack Development path at Start2Impact, a learning platform I chose for its strong project-based approach. During the summer of 2025, while looking for job opportunities on LinkedIn, I applied for and was selected to join a development training program organized by ITForm and funded by the Campania Region.",
 
-        "The program included 300 hours of training and an internship at a tech company in Napoli. After passing the final examination in December, I earned an EQF Level 5 qualification in Web Development/Technician, recognized across Europe.",
+        "The program included 300 hours of training and an internship at a tech company in Napoli. After passing the final examination in December, I earned an EQF-5 qualification in Web Development/Technician, recognized across Europe.",
       ],
       readMore: "Read more",
       showLess: "Show less",
@@ -211,7 +211,7 @@ export const translations = {
           period: "2024-2025",
           title: "Part-Time Cashier",
           company: "Local supermarket",
-          description: "Part-time cashier role (08:00–13:30).",
+          description: "Part-time cashier, ~18 months.",
         },
       ],
     },
