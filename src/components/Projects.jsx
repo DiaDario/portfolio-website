@@ -11,7 +11,7 @@ function Projects() {
       <p className="font-mono text-xs text-accent/50 mb-10">// {t.title.toLowerCase()}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {t.items.map((project) => (
+        {t.items.filter((p) => p.title).map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
