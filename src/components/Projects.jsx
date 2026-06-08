@@ -7,7 +7,7 @@ function Projects() {
   const t = translations[lang].projects;
 
   return (
-    <section id="projects" className="px-6 md:px-10 py-16 md:py-20">
+    <section id="projects" className="min-h-96 px-6 md:px-10 py-16 md:py-20">
       <p className="font-mono text-xs text-accent/50 mb-10">// {t.title.toLowerCase()}</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
