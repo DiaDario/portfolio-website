@@ -33,12 +33,13 @@ export const translations = {
       subtitle: "Un po' di me, il mio percorso e il mio CV.",
       bioLabel: "Bio",
       bioParagraphs: [
-        "Sono uno sviluppatore di 25 anni con una forte passione per la tecnologia, nata quando ho assemblato il mio primo computer fisso a 15 anni.",
-        "Dopo il liceo scientifico ho frequentato inizialmente Informatica all'Università Federico II di Napoli e successivamente Data Analytics presso l'Università Luigi Vanvitelli, corso interamente in lingua inglese. Il percorso si è interrotto nei primi mesi a causa di alcune difficoltà personali e di salute, che in quel periodo hanno reso alquanto complessa la continuità nello studio.",
-        "Una volta superato quel periodo, ho deciso di intraprendere un percorso nel mondo dello sviluppo tramite la piattaforma Start2Impact che mi aveva attirato sin da subito per il suo focus su progetti pratici.",
-        "Prima di terminare il mio percorso con Start2impact, nel 2025, mentre ero alla ricerca di opportunità lavorative su LinkedIn, ho scoperto un corso professionale promosso da ITForm e istituito dalla Regione Campania nell'ambito dello sviluppo web. Interessato ad acquisire esperienza dal vivo e consolidare le mie competenze, ho inviato la candidatura e sono stato selezionato. Il corso si è svolto tra giugno e ottobre, con esame finale teorico e pratico a dicembre 2025.",
-        'Ho conseguito la qualifica EQF5 di "Tecnico Programmatore Siti Web", valida a livello europeo, attraverso un percorso di 300 ore che includeva anche 90 ore di tirocinio presso un\'azienda tech nel Centro Direzionale di Napoli.',
-        "Ho un'ottima padronanza della lingua inglese, che utilizzo quotidianamente in diversi contesti, sia nello studio che nella vita di tutti i giorni. Mi considero fluido anche nella comunicazione orale.",
+        "Sono uno sviluppatore di 25 anni con una forte passione per la tecnologia. Il mio interesse è nato presto: ho assemblato il mio primo PC fisso a 14 anni e da allora non ho mai smesso di esplorare il mondo dell'informatica.",
+
+        "Dopo il liceo scientifico mi sono iscritto a Informatica presso l'Università Federico II, per poi passare a Data Analytics all'Università Vanvitelli, triennale tenuta interamente in lingua inglese. Sebbene abbia dovuto interrompere il percorso prima del previsto a causa di alcune difficoltà personali e di salute, quell'esperienza mi ha spinto a concentrarmi maggiormente sulla programmazione.",
+
+        "Successivamente ho seguito parte del percorso Full Stack Development di Start2Impact, una piattaforma che ho scelto per il suo approccio fortemente orientato ai progetti pratici. Nell'estate del 2025, mentre cercavo opportunità lavorative su LinkedIn, mi sono candidato a un percorso formativo promosso da ITForm e finanziato dalla Regione Campania, venendo selezionato per parteciparvi.",
+
+        "Il programma comprendeva 300 ore di formazione e 90 ore di tirocinio presso un'azienda tech di Napoli. Dopo aver completato il corso e superato l'esame finale a dicembre, ho conseguito una qualifica EQF5 come Tecnico Programmatore Siti Web, riconosciuta a livello europeo.",
       ],
       readMore: "Leggi di più",
       showLess: "Mostra meno",
@@ -74,7 +75,7 @@ export const translations = {
           title: "Tirocinante Sviluppatore Web",
           company: "Azienda tech — Centro Direzionale, Napoli",
           description:
-            "Tirocinio curricolare di 90 ore svolto nell'ambito del percorso EQF5 con ITForm. Affiancamento al team di sviluppo su attività di front-end e manutenzione di applicazioni web.",
+            "Tirocinio curricolare svolto nell'ambito del percorso EQF5 con ITForm. Affiancamento al team di sviluppo su attività di front-end e manutenzione di applicazioni web.",
         },
         {
           period: "2024-2025",
@@ -86,31 +87,30 @@ export const translations = {
     },
 
     projects: {
-      title: "Progetti",
-      subtitle: "Alcune cose su cui ho lavorato.",
+      title: "Projects",
+      subtitle: "Some things I've built",
       items: [
         {
           id: 1,
-          title: "Portfolio React",
-          description:
-            "Portfolio personale realizzato con React e Tailwind CSS.",
-          tags: ["React", "Tailwind CSS", "Vite"],
+          title: "NeverMontell",
+          description: "Una WebApp costruita per una lega privata di fantacalcio",
+          tags: ["PHP", "Bootstrap", "SASS", "Javascript"],
           github: "",
-          live: "",
+          live: "https://www.nevermontell.it/",
         },
         {
           id: 2,
-          title: "Mini Todo App",
-          description: "Applicazione Todo con gestione dello stato in React.",
+          title: "Project 2",
+          description: "",
           tags: ["React", "useState"],
           github: "",
           live: "",
         },
         {
           id: 3,
-          title: "Dashboard",
-          description: "Dashboard con componenti React riutilizzabili.",
-          tags: ["React", "Components"],
+          title: "Project 3",
+          description: "",
+          tags: ["React", "useState"],
           github: "",
           live: "",
         },
@@ -140,8 +140,7 @@ export const translations = {
       socialLinks: [
         { label: "GitHub", description: "I miei repository" },
         { label: "LinkedIn", description: "Profilo professionale" },
-        { label: "Instagram", description: "Seguimi" },
-        { label: "Discord", description: "Scrivimi in DM" },
+        { label: "X", description: "Scrivimi in DM" },
       ],
     },
   },
@@ -184,8 +183,8 @@ export const translations = {
 
         "After high school, I enrolled in Computer Science at Federico II University before switching to Data Analytics at Vanvitelli University, a degree program taught entirely in English. Although I had to leave university earlier than planned due to personal and health-related circumstances, that experience ultimately pushed me to focus more on coding.",
 
-        "I later completed part of the Full Stack Development path at Start2Impact, a learning platform I chose for its strong project-based approach. During the summer of 2025, while looking for job opportunities on LinkedIn, I applied for and was selected to join a development training program organized by ITForm and funded by the Campania Region.", 
-        
+        "I later completed part of the Full Stack Development path at Start2Impact, a learning platform I chose for its strong project-based approach. During the summer of 2025, while looking for job opportunities on LinkedIn, I applied for and was selected to join a development training program organized by ITForm and funded by the Campania Region.",
+
         "The program included 300 hours of training and a 90-hour internship at a tech company in Napoli. After passing the final examination in December, I earned an EQF Level 5 qualification in Web Development/Technician, recognized across Europe.",
       ],
       readMore: "Read more",
@@ -247,17 +246,17 @@ export const translations = {
         },
         {
           id: 2,
-          title: "Mini Todo App",
-          description: "Todo application with React state management.",
+          title: "Project 2",
+          description: "",
           tags: ["React", "useState"],
           github: "",
           live: "",
         },
         {
           id: 3,
-          title: "Dashboard",
-          description: "Dashboard with reusable React components.",
-          tags: ["React", "Components"],
+          title: "Project 3",
+          description: "",
+          tags: ["React", "useState"],
           github: "",
           live: "",
         },
@@ -265,9 +264,8 @@ export const translations = {
     },
 
     contact: {
-      title: "",
-      subtitle:
-        "",
+      title: "Contact",
+      subtitle: "Feel free to reach out — via social or the form below.",
       socialTitle: "Social",
       formTitle: "Write me",
       nameLabel: "Name",
@@ -287,8 +285,7 @@ export const translations = {
       socialLinks: [
         { label: "GitHub", description: "My repositories" },
         { label: "LinkedIn", description: "Professional profile" },
-        { label: "Instagram", description: "Follow me" },
-        { label: "Discord", description: "Message me" },
+        { label: "X", description: "Send me a message" },
       ],
     },
   },

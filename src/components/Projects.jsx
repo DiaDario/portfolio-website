@@ -8,10 +8,9 @@ function Projects() {
 
   return (
     <section id="projects" className="px-6 md:px-10 py-16 md:py-20">
-      <h2 className="text-ink/80 text-[22px] font-bold mb-2 md:text-2xl">{t.title}</h2>
-      <p className="text-ink/40 mb-12 text-sm">{t.subtitle}</p>
+      <p className="font-mono text-xs text-accent/50 mb-10">// {t.title.toLowerCase()}</p>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 items-start">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {t.items.map((project) => (
           <ProjectCard
             key={project.id}

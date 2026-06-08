@@ -8,9 +8,7 @@ function About() {
 
   return (
     <section id="about" className="px-6 md:px-10 py-16 md:py-20">
-      <p className="text-ink/80 text-xs font-semibold uppercase tracking-widest mb-10">
-        {t.subtitle}
-      </p>
+      <p className="font-mono text-xs text-accent/50 mb-10">// {t.title.toLowerCase()}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
         {/* Bio*/}

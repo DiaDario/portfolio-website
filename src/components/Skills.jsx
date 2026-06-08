@@ -87,9 +87,7 @@ function Skills() {
 
   return (
     <section className="px-6 mb-10 md:mb-5 md:px-10">
-      <p className="text-ink/80 text-xs font-semibold uppercase tracking-widest mb-10">
-        {t.subtitle}
-      </p>
+      <p className="font-mono text-xs text-accent/50 mb-10">// {t.title.toLowerCase()}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 font-medium">
         <SkillGroup title={t.coreSkills} skills={coreSkills} />
         <SkillGroup title={t.stylingSkills} skills={stylingSkills} />
