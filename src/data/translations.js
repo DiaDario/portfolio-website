@@ -39,7 +39,7 @@ export const translations = {
 
         "Successivamente ho seguito parte del percorso Full Stack Development di Start2Impact, una piattaforma che ho scelto per il suo approccio fortemente orientato ai progetti pratici. Nell'estate del 2025, mentre cercavo opportunità lavorative su LinkedIn, mi sono candidato a un percorso formativo promosso da ITForm e finanziato dalla Regione Campania, venendo selezionato per parteciparvi.",
 
-        "Il programma comprendeva 300 ore di formazione e 90 ore di tirocinio presso un'azienda tech di Napoli. Dopo aver completato il corso e superato l'esame finale a dicembre, ho conseguito una qualifica EQF5 come Tecnico Programmatore Siti Web, riconosciuta a livello europeo.",
+        "Il programma comprendeva 300 ore di formazione e un tirocinio presso un'azienda IT nel centro direzionale di Napoli. Dopo aver completato il corso e superato l'esame finale a dicembre, ho conseguito una qualifica EQF5 come Tecnico Programmatore Siti Web, riconosciuta a livello europeo.",
       ],
       readMore: "Leggi di più",
       showLess: "Mostra meno",
@@ -73,7 +73,7 @@ export const translations = {
         {
           period: "2025",
           title: "Tirocinante Sviluppatore Web",
-          company: "Azienda tech — Centro Direzionale, Napoli",
+          company: "ITConsulting — Centro Direzionale, Napoli",
           description:
             "Tirocinio curricolare svolto nell'ambito del percorso EQF5 con ITForm. Affiancamento al team di sviluppo su attività di front-end e manutenzione di applicazioni web.",
         },
@@ -169,7 +169,7 @@ export const translations = {
 
         "I later completed part of the Full Stack Development path at Start2Impact, a learning platform I chose for its strong project-based approach. During the summer of 2025, while looking for job opportunities on LinkedIn, I applied for and was selected to join a development training program organized by ITForm and funded by the Campania Region.",
 
-        "The program included 300 hours of training and a 90-hour internship at a tech company in Napoli. After passing the final examination in December, I earned an EQF Level 5 qualification in Web Development/Technician, recognized across Europe.",
+        "The program included 300 hours of training and an internship at a tech company in Napoli. After passing the final examination in December, I earned an EQF Level 5 qualification in Web Development/Technician, recognized across Europe.",
       ],
       readMore: "Read more",
       showLess: "Show less",
