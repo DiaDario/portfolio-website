@@ -68,15 +68,6 @@ function About() {
               ))}
             </ol>
           </div>
-
-          <a
-            href="/DarioDiana_CV.pdf"
-            download
-            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg bg-accent text-background text-sm font-medium hover:bg-accent/90 active:scale-95 transition-all duration-200 self-start"
-          >
-            <Download size={15} />
-            {t.downloadCV}
-          </a>
         </div>
       </div>
     </section>
